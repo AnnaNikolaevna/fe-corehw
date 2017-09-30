@@ -21,11 +21,11 @@
 }
 
 .gallery-pic {
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .gallery-pic:last-child {
-  padding-right: none;
+  margin-right: 0;
 }
 
 .gallery-article {
