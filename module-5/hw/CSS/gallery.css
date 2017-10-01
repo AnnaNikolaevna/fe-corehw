@@ -73,10 +73,6 @@
   background-color: rgb(56, 174, 229);
 }
 
-.top-link {
-  position: relative;
-}
-
 .top-link::after {
   position: absolute;
   display: block;
