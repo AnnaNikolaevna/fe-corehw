@@ -31,7 +31,6 @@
 .next-link {
   width: 45px;
   height: 90px;
-  /*background: url(../images/prevnext.png) 0 0 no-repeat;*/
   background-color: rgb(56, 175, 229);
   position: absolute;
   display: block;
