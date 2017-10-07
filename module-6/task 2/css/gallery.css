@@ -1,0 +1,21 @@
+.title {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #263555;
+}
+
+.gallery-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+
+.gallery-pic {
+  width: 30%;
+  margin-bottom: 2.5rem;
+}
+
+ .gallery-pic:nth-child(n+7) {
+  margin-bottom: 0;
+}  
