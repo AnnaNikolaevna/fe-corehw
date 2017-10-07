@@ -1,0 +1,44 @@
+.title {
+  margin-bottom: 2.875rem;
+  font-size: 2rem;
+  font-family: Pathway Gothic One, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #263555;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  }
+
+  .sidebar-list {
+    margin-bottom: 3.25rem;
+  }
+
+  .sidebar-list:last-child{
+    margin-bottom: 0;
+  }
+
+.list {
+  list-style-type: none;
+}
+
+.item {
+  margin: 0 0 1.125rem 0;
+}
+
+.item::before {
+  display: inline-block;
+  content: "\2192";
+  margin-right: 0.875rem;
+  color: #38afe5;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #263555;
+}
