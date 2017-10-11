@@ -1,6 +1,5 @@
 .page-ftr {
-    width: 1024px;
+    width: 1023px;
     min-height: 133px;
-    margin: auto;
     background-image: url(../img/footer-bg.jpg);
   }
