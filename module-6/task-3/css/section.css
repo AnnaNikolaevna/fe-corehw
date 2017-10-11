@@ -6,12 +6,6 @@
   color: #263555;
 }
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
-  }
-
   .sidebar-list {
     margin-bottom: 3.25rem;
   }
