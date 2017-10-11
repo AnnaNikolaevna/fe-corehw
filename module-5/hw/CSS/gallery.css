@@ -1,4 +1,5 @@
 .gallery-section {
+  position: relative;
   margin-top: 58px;
   font-family: Pathway Gothic One, Arial, Helvetica, sans-serif;
 }
@@ -11,15 +12,8 @@
 }
 
 .gallery-img {
-  position: relative;
-  float: left;
-  width: 32%;
-  margin-right: 2%;
+  float: left;  
   padding-bottom: 20px;
-}
-
-.gallery-img:last-child {
-  margin-right: 0;
 }
 
 .gallery-img:hover>.gallery-article {
@@ -27,17 +21,19 @@
 }
 
 .gallery-pic {
-  display: block;
-  width: 100%;
-	height: auto;
+  width: 30%;
+  margin-right: 10px;
+  }
+
+img.gallery-pic:last-child {
+  margin-right: 0;
 }
 
 .gallery-article {
   display: none;
   position: absolute;
-  top: 0;
-  height: 100%;
-	width: 50%;
+  top: 0px;
+  width: 146px;
   background-color: #193149;
   padding: 22px 8px 18px 8px;
   color: #eaebec;
@@ -52,16 +48,14 @@
 
 .text {
   margin-bottom: 28px;
-  /* line-height: 1.5; */
+  line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
 
 .btn-link {
-  position: absolute;
   border-radius: 4px;
-  bottom: 18px;
-	right: 12px;
+  margin-left: 72px;
   padding: 6px 8px;
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
