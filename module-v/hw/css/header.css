@@ -1,7 +1,9 @@
 .header {
+  width: 1024px;
   position: relative;
+  margin: auto;
   padding: 100px 0 112px 0;
-  background-color: #becbec;
+ 
 }
 .navigation {
   list-style-type: none;
@@ -15,7 +17,7 @@
   }
 
 .nav:first-child {
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 .nav:last-child {
@@ -47,9 +49,9 @@
   /* min-height: 84px; */
   padding: 10px;
   position: absolute;
-  top: 50%;
+  top: 110%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   background-color: #fff;
   list-style-type: none;
 }
