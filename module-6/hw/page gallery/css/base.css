@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+	width: 64rem; 
+  margin: auto;
+  padding: 6.125rem 3.75rem 8.625rem 3.75rem;
+  background-color: #fff;
+}
