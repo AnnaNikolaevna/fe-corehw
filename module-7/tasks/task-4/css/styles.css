@@ -1,0 +1,52 @@
+﻿* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 64rem;
+  margin: auto;
+  padding: 6.125rem 3.75rem 8.625rem 3.75rem;
+  background-color: #fff;
+}
+
+table {
+  width: 14rem;
+  margin-bottom: 3.125rem;
+  font-family: Arial, sans-serif;
+  font-size: 0.812rem;
+  color: #808080;
+}
+
+table:last-child {
+  margin-bottom: 0;
+}
+caption {
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+   text-align: left;
+}
+
+
+tr {
+  margin-bottom: 0.375rem;
+}
+
+tr:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  font-family: Arial, sans-serif;
+  font-size: 0.812rem;
+  text-decoration: none;
+  color: #808080; 
+}
+.mail {
+  color: #fa7e7e;
+  }
+.fax {
+  text-transform: uppercase;
+}
+
