@@ -1,0 +1,91 @@
+.section-card {
+flex-basis: 68%;
+}
+.title {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-family: Pathway Gothic One, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #263555;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-item {
+flex-basis: 50%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+ margin-bottom: 2.5rem;
+}
+
+.card-item:nth-child(n+5) {
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  flex-basis: 43%;
+  width: 100%;
+ }
+
+.subtitle-card {
+  font-family: Arial, sans-serif;
+  font-size: 0.75rem;
+  color: #263555;
+  flex-basis: 46%
+}
+
+.price {
+ font-family: Arial, sans-serif;
+ font-size: 0.812rem;
+ color: #38afe5;
+ flex-basis: 46%;
+}
+
+.text {
+font-family: Arial, sans-serif;
+ font-size: 0.625rem;
+ color: #4e5050;
+ flex-basis: 46%;
+}
+
+.button {
+margin-top: 2.125rem;
+}
+
+.btn-link {
+  border: 1px solid #c2bcbd;
+  border-radius: 8px;
+  padding: 0.375rem 1.437rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.687rem;
+  text-decoration: none;
+  color: #000;
+  flex-basis: 46%;
+}
+.btn-top {
+  position: fixed;
+  height: 30px;
+  width: 30px;
+  bottom: 150px;
+  right: 16px;
+  border-radius: 100%;
+  background-color: rgb(56, 174, 229);
+}
+
+.top-link::after {
+  position: absolute;
+  display: block;
+  content: " ";
+  width: 11px;
+  height: 6px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../img/top.png);
+}

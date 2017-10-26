@@ -1,10 +1,9 @@
-.footer {
+.page-footer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   width: 64rem;
   margin: auto;
- padding: 2.75rem 0 1.875rem 0;
+  padding: 2.75rem 0 1.875rem 0;
   background-image: url('../img/footer/footer-bg.jpg');
 }
 
@@ -40,7 +39,6 @@
 }
 
 .contacts {
-  padding-top: 2.75rem
   text-transform: uppercase;
   font-family: Open Sans, sans-serif;
   color: #fff;
@@ -49,7 +47,6 @@
 .contact {
   margin: 0 0 0.875rem 0;
   font-size: 1.125rem;
-	text-transform: uppercase;
 }
 
 .phone,
@@ -60,22 +57,19 @@
 
 .phone {
   margin-bottom: 0.625rem;
-	text-transform: uppercase;
 }
 
 .e-mail {
   text-transform: none;
 }
 
-/* .socials-footer {
-  flex-basis: 100%;
+.socials-footer {
    padding: 1.5rem 0;
-} */
-
+}
 
 .footer-socials {
   display: flex;
-  flex-basis: 100%;
+  flex-direction: row;
 justify-content: center;
 align-items: center; 
   padding: 1.625rem 0 1.625rem 0;

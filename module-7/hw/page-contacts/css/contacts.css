@@ -3,6 +3,7 @@
   flex-basis: 70%;
  }
 .map-table {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -15,25 +16,9 @@
   color: #263555;
 }
 
-.map {
-  overflow: hidden;
-  padding-bottom: 33%;
-  position: relative;
-  height: 0;
-}
-
-.map iframe {
-  left: 0;
-  top: 0;
-  width: 441px;
-  height: 414px;
-  position: absolute;
-}
-
-
 /*TABLE*/
 .table {
-  flex-basis: 26%
+  flex-basis: 28%
 }
 
 table {
@@ -137,6 +122,11 @@ button:nth-child(1) {
 
 button:nth-child(2) {
   margin-right: 0;
+}
+
+
+button:focus {
+	outline: none;
 }
 
 input,

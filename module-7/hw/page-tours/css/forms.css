@@ -1,0 +1,75 @@
+.section-form {
+  flex-basis: 23%;
+}
+form:nth-child(1) {
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin-bottom: 2.937rem;
+  font-family: "Pathway Gothic One", Helvetica, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #263555;
+}
+
+.title-select {
+  margin: 1.562rem 0 0.625rem 0;
+  font-family: Arial, sans-serif;
+  font-size: 0.625rem;
+  color: #4e5050; 
+}
+.operator {
+  margin-top: 0;
+}
+select {
+  width: 13.125rem; 
+  padding: 0.375rem;
+  font-family: Arial, sans-serif;
+  font-size: 0.625rem;
+  color: #868f8f;
+  -webkit-appearance: none;
+	-moz-appearance: none;
+  appearance: none;
+  background-image: url(../img/tours/arrow.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto; 
+  }
+  
+select[name="tour-operator"] {
+  margin-bottom: 3.687rem;
+}
+
+option {
+  padding: 0.125rem;
+  background-color: #e3e2e2;
+  color: #fff;
+}
+option[value="4"] {
+  margin-bottom: 3.687rem;
+}
+
+.subtitle {
+  margin-bottom: 0.437rem;
+  font-family: Arial, sans-serif;
+  font-size: 0.625rem;
+  color: #38afe5;
+}
+
+.duration {
+  margin-bottom: 5rem;
+}
+
+button {
+  text-align: center;
+  padding: 0.375rem 1.437rem;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 0.937rem;
+}
+
+select:focus,option:focus,button:focus {
+	outline: none;
+}

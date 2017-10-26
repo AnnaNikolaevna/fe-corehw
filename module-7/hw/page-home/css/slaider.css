@@ -1,0 +1,62 @@
+.slaider {
+  position: relative;
+  font-family: Pathway Gothic One, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.slaider-subtitle {
+  position: absolute;
+  top: 13.75rem;
+  padding: 1.375rem 1rem;
+  background-color: #fff;
+  font-size: 1.375rem;
+  color: #263555;
+}
+
+.slaider-title {
+  position: absolute;
+  top: 17.625rem;
+  padding: 1rem 0.75rem 1rem 1rem;
+  background-color: #38afe5;
+  font-size: 2.125rem;
+  color: #fff;
+}
+
+.slaider-control {
+  position: absolute;
+  bottom: 2.375rem;
+  left: 2.25rem;
+}
+
+.btn {
+  float: left;
+  width: 2.812rem;
+  height: 5.625rem;
+  text-align: center;
+  line-height: 5.625rem;
+  background-color: rgb(56, 175, 229);
+  text-decoration: none;
+  color: #fff
+}
+
+.prev-link {
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.next-link {
+  left: 4.875rem;
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+
+.prev-link::before  {
+  content: "\2190";
+ }
+
+.next-link::before {
+  content: "\2192";
+}
+
+.prev-link:hover,
+.next-link:hover {
+  background-color: rgba(56, 175, 229, 0.5);
+ }
