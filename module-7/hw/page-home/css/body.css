@@ -1,6 +1,5 @@
 .page {
-  width: 100vh;
-  /* padding: 14.625rem 27.875rem 3.75rem 27.875rem;  */
+ min-height: 100vh;
   background: url(../img/page-bg.jpg); 
   background-size: cover;
  }

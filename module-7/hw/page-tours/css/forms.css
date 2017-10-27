@@ -32,7 +32,9 @@ select {
 	-moz-appearance: none;
   appearance: none;
   background-image: url(../img/tours/arrow.png);
-  background-position: right;
+  /*background-position: right;*/
+  background-position-x: 95%;
+  background-position-y: 50%;
   background-repeat: no-repeat;
   background-size: auto; 
   }
