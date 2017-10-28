@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 60rem;
+  min-width: 20rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.header {
+  min-width: 100%;
+  min-height: 2.5rem;
+  margin-bottom: 1rem;
+  background-color: yellow;
+}
+
+.main-1,.main-2,.main-3 {
+margin-bottom: 1rem;
+}
+.main-1 {
+  min-width: 54%;
+  min-height: 20rem;
+  background-color: lightblue;
+}
+
+.main-2 {
+  min-width: 20%;
+  min-height: 20rem;
+  background-color: grey;
+}
+
+.main-3 {
+  min-width: 20%;
+  min-height: 20rem;
+  background-color: red;
+}
+
+.footer {
+  min-width: 100%;
+  min-height: 2.5rem;
+  background-color: green;
+}
