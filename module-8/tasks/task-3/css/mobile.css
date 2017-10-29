@@ -1,0 +1,33 @@
+.wrapper {
+  max-width: 60rem;
+  min-width: 20rem;
+  margin: auto;
+  padding: 4rem;
+}
+
+.main-1,.main-2 {
+margin-bottom: 1.5rem;
+}
+.main-3 {
+  margin-bottom: 0; 
+}
+.main-1 {
+  min-height: 20rem;
+  background-color: red;
+}
+
+.main-2 {
+  min-height: 20rem;
+  background-color: #20B2AA;
+}
+
+.main-3 {
+  min-height: 10rem;
+  background-color: #1E90FF;
+}
+
+@media (min-width: 768px) {
+  .main-2 {
+    margin-bottom: 0;
+  }
+}
