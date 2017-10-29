@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .wrapper {
   display: flex;
   flex-wrap: wrap;
