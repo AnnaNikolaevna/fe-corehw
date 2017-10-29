@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 30rem;
+  min-width: 20rem;
+  margin: auto;
+  padding: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.content {
+  min-height: 10rem;
+  padding-top: 5rem;
+  background-color: #808000;
+ }
+
+.sidebar {
+  min-height: 10rem;
+  padding-top: 5rem;
+  background-color:#90EE90;
+}
+
