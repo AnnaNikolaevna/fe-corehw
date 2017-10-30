@@ -1,0 +1,103 @@
+.header {
+  width: 480px;
+  margin: auto;
+   padding: 1.5rem 7.25rem 3.75rem 8.6125rem; 
+ background-color: #95b7dd; 
+  /* outline: 2px solid grey; */
+  
+}
+.header-logo {
+  width: 4.8125rem;
+  min-height: 4.8125rem;
+  padding: 1.5625rem 1rem;
+   margin-left: 28%;
+   border-radius: 50%;
+  line-height: 4.8125rem;
+  background-color: #fff;
+  font-family: Dorsa, Arial, Helvetica, sans-serif;
+  font-size: 2.062rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #263555;
+}
+
+.navigation {
+ position: relative;
+  margin-top: 1.875rem;
+  list-style-type: none;
+  min-width: 13.937rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ }
+ 
+ .nav {
+     flex-basis: 30%;
+margin-bottom: 1.125rem;
+}
+ 
+ .nav:nth-last-child(-n+3) {
+   margin-right: 0; 
+ }
+  
+ 
+ .nav-link {
+   display: block;
+   font-family: Pathway Gothic One;
+   font-size: 1.25rem;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #f0f3fe;
+ }
+ 
+ .nav-link:hover {
+   text-decoration: none;
+   color: #263555;
+ }
+ 
+ .menu {
+  position: absolute; 
+  display: none;
+   padding: 0.5rem;
+   position: absolute;
+   top: 31%;
+   left: 34%;
+   border-radius: 0.25rem;
+   background-color: #fff;
+   list-style-type: none;
+ }
+ 
+ .submenu {
+   margin-bottom: 0.625rem;
+   text-align: center;
+ }
+ 
+ .submenu:last-child {
+   margin-right: 0;
+ }
+ 
+ .sub-link {
+   display: block;
+   font-family: Pathway Gothic One, Arial, Helvetica, sans-serif;
+   font-size: 0.875rem;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #6b7488;
+ }
+ 
+ .nav:hover > .menu {
+   display: block;
+ }
+ 
+ .menu::before {
+   display: block;
+   content: " ";
+   position: absolute;
+   left: 45%;
+   top: -0.375rem;
+   transform: translate(-50%);
+   border-left: 0.125rem solid transparent;
+   border-right: 0.125rem solid transparent;
+   border-bottom: 0.375rem solid #fff;
+ }
