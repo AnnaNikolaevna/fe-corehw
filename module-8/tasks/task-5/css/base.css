@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 480px;
+  min-width: 320px;
+  margin: auto;
+  height: auto;
+  padding: 0.25rem;
+  }
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
