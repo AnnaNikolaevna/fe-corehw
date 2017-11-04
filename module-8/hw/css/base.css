@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.wrapper {
+ max-width: 30rem;
+ min-width: 20rem;
+ margin: auto;
+ }
