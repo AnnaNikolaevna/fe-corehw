@@ -1,33 +1,27 @@
-    @media (min-width: 48rem) {
+      @media (min-width: 768px) {
+      .header {
+        padding: 5.375rem 1.25rem;
+      }
       .header-logo {
-        width: 13.021%;
-        height: 13.021%;
-        padding: 1.5625rem 1.25rem;
-        line-height: 6.25rem;
+        width: 102px;
+        height: 102px;
+        margin-bottom: 1.5625rem;
         font-size: 2.6875rem;
       }
-      .navigation {
-        margin-top: 1.5625rem;
-      }
       .nav {
-        margin-bottom: 1.6875rem;
-      }
-      .nav-link {
         font-size: 1.5rem;
       }
       .menu {
         padding: 0.75rem;
       }
-      .submenu {
+      .menu li {
         margin-bottom: 0.5625rem;
-      }
-      .sub-link {
         font-size: 1.0625rem;
       }
-      .wrapper {
+      /*GALLERY*/
+      .section {
         padding: 5.375rem 2.87rem 5.375rem 2.875rem;
       }
-      /*GALLERY*/
       .title {
         margin-bottom: 2.9375rem;
       }
@@ -42,9 +36,6 @@
       .gallery-item:nth-child(6) {
         margin-bottom: 2.5rem;
       }
-    }
-
-    @media (min-width: 48rem) and (max-width: 64rem) {
       .gallery-item:nth-child(7),
       .gallery-item:nth-child(8) {
         display: block;
@@ -56,7 +47,13 @@
         bottom: 17.9375rem;
         right: 0.5625rem;
       }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        .gallery-item:nth-child(9) {
+          display: none;
+        }
+      }
       /*FOOTER*/
+            
       .page-footer {
         display: block;
         padding-bottom: 2.75rem;
@@ -100,4 +97,4 @@
       .footer-copyright {
         margin-top: 1.5625rem;
       }
-    }
+    } 

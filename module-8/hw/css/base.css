@@ -10,8 +10,8 @@ img {
 	height: auto;
 }
 
-.container {
-  max-width: 64rem;
-  min-width: 30rem;
+.wrapper {
+  max-width: 1024px;
+  min-width: 480px;
   margin: auto;
 }

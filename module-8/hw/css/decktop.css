@@ -1,53 +1,40 @@
-@media (min-width: 64rem) {
+ @media (min-width: 1024px) {
   .header {
-    position: relative;
-    padding: 6.25rem 0 7rem 0;
+     padding: 6.25rem 0 7rem 0;
   }
   .navigation {
-    display: flex;
-    position: relative;
-    padding: 0 6.25rem;
+    width: 100%;
+    justify-content: center;
   }
   .nav {
-    flex-basis: 15%;
-    margin: 0 3.75rem 0 0;
-  }
-  .nav:nth-child(3) {
-    margin-right: 15.25rem;
-  }
-  .nav-link {
     font-size: 1.75rem;
+    flex-basis: 10%;
   }
+  
+ .nav:nth-child(3) {
+  margin-right: 10rem; 
+} 
+
   .menu {
     padding: 0.625rem;
     top: 56%;
-    left: 20%;
+    left: 22%;
   }
-  .submenu {
+  .menu li {
     margin-bottom: 0.625rem;
+     font-size: 1.25rem;
   }
-  .sub-link {
-    font-size: 1.25rem;
-  }
-  .menu::before {
-    display: block;
-    content: " ";
-    position: absolute;
-    left: 42%;
-    top: -3px;
-  }
+  
   .header-logo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: block;
-    width: 8.625rem;
-    min-height: 8.625rem;
-    line-height: 8.625rem;
+    width: 138px;
+    height: 138px;
     font-size: 3.75rem;
   }
-  .wrapper {
+  .section {
     padding: 6.125rem 3.75rem 8.625rem 3.75rem;
   }
   .title {
@@ -73,8 +60,19 @@
   .footer {
     padding: 2.75rem 0 1.875rem 0;
   }
+  .item {
+    margin-bottom: 0.8125rem;
+  }
+  .link-item {
+    font-size: 1rem;
+  }
   .contact {
     margin-bottom: 0.875rem;
+    font-size: 1.125rem;
+  }
+  .phone,
+  .e-mail {
+  font-size: 0.75rem;
   }
   .footer-socials {
     padding: 1.625rem 0 1.625rem 0;
@@ -82,22 +80,8 @@
   .footer-icon {
     margin-right: 0.875rem;
   }
-  .footer-icon:hover {
-    -webkit-filter: grayscale(100%)
-  }
-  .bg-twitter {
-    background: url('../img/footer/icons-footer.png') -10px -10px;
-  }
-  .bg-facebook {
-    background: url('../img/footer/icons-footer.png') -70px -10px;
-  }
-  .bg-google_plus {
-    background: url('../img/footer/icons-footer.png') -10px -70px;
-  }
-  .bg-linkedin {
-    background: url('../img/footer/icons-footer.png') -70px -70px;
-  }
+  
   .footer-copyright {
     font-size: 0.75rem;
   }
-}
+} 
