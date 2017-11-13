@@ -1,0 +1,22 @@
+.container {
+  max-width: 768px;
+  min-width: 480px;
+  margin: auto;
+  padding: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.content {
+  min-height: 10rem;
+  padding-top: 4.5rem;
+  background-color: #808000;
+ }
+
+.sidebar {
+  min-height: 10rem;
+  padding-top: 4.5rem;
+  background-color:#90EE90;
+}
+
